@@ -188,6 +188,7 @@ public class ConnectionToClient extends Thread
    * Based on a hash map.
    *
    * @param infoType   identifies the type of information
+   * @return {@link Object} - connection info
    */
   public Object getInfo(String infoType)
   {
@@ -228,7 +229,7 @@ public class ConnectionToClient extends Thread
         {
           closeAll();
         }
-        catch (Exception ex) { }
+        catch (Exception ex) {}
 
         server.clientException(this, exception);
       }

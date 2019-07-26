@@ -30,7 +30,7 @@ import java.io.*;
 * @author Fran&ccedil;ois B&eacute;langer
 * @author Paul Holden
 * @version February 2001 (2.12)
-* @see ocsf.server.ConnectionToClient
+*
 */
 public abstract class AbstractServer implements Runnable
 {
@@ -171,7 +171,8 @@ public abstract class AbstractServer implements Runnable
            ((ConnectionToClient)clientThreadList[i]).close();
          }
          // Ignore all exceptions when closing clients.
-         catch(Exception ex) {}
+         catch(Exception ex) {
+         }
       }
       serverSocket = null;
       serverClosed();

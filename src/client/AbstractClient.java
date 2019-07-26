@@ -22,11 +22,11 @@ import java.util.*;
 * Several public service methods are provided to
 * application that use this framework.<p>
 *
-* Project Name: OCSF (Object Client-Server Framework)<p>
+* Project Name: OCSF (Object Client-Server Framework)
 *
-* @author Dr. Robert Lagani&egrave;re
+* @author Dr. Robert 
 * @author Dr. Timothy C. Lethbridge
-* @author Fran&ccedil;ois  B&eacutel;langer
+* @author Fran , ccedil
 * @author Paul Holden
 * @version February 2001 (2.12)
 */
@@ -74,24 +74,12 @@ public abstract class AbstractClient implements Runnable
   */
   private int port;
 
-// CONSTRUCTORS *****************************************************
+  
+public AbstractClient() {
+	// TODO Auto-generated constructor stub
+}
 
-  /**
-   * Constructs the client.
-   *
-   * @param  host  the server's host name.
-   * @param  port  the port number.
-   */
-  public AbstractClient(String host, int port)
-  {
-    // Initialize variables
-    this.host = host;
-    this.port = port;
-  }
-
-// INSTANCE METHODS *************************************************
-
-  /**
+/**
    * Opens the connection with the server.
    * If the connection is already opened, this call has no effect.
    *
@@ -206,7 +194,7 @@ public abstract class AbstractClient implements Runnable
    * Sets the server host for the next connection.
    * The change in host only takes effect at the time of the
    * next call to openConnection().
-   *
+   * 
    * @param host the host name.
    */
   final public void setHost(String host)
@@ -254,7 +242,7 @@ public abstract class AbstractClient implements Runnable
         handleMessageFromServer(msg);
       }
     }
-    catch (Exception exception)
+    catch (Exception exception) 
     {
       if(!readyToStop)
       {
@@ -262,8 +250,10 @@ public abstract class AbstractClient implements Runnable
         {
           closeAll();
         }
-        catch (Exception ex) { }
-
+        catch (Exception ex) {
+        	ex.printStackTrace();
+        }
+    	
         connectionException(exception);
       }
     }
@@ -324,7 +314,6 @@ public abstract class AbstractClient implements Runnable
       //Close the socket
       if (clientSocket != null)
         clientSocket.close();
-
       //Close the output stream
       if (output != null)
         output.close();
