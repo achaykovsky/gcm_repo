@@ -56,9 +56,7 @@ From the drop-down menu, the employee can choose a site and add it to the route,
 
 #### Editor Tool - Map View
 ![Editor Tool - Map View](https://user-images.githubusercontent.com/49001453/102719795-dd79c600-42f8-11eb-848b-1b252e7d220c.PNG)
+To add a new map, or a new site the user can simply choose the first option on the drop-down menu, and then all the fields are initialized.
 After a map choosed, all the details are loaded to the GUI and can be edited.
 On the top right side, the employee can add a site to the map.
 Below that, they can edit the details of the site, save it or delete it entirely.
-To add a new map, or a new site the user can simply choose the first option on the drop-down menu, and then all the fields are initialized.
- 
-
