@@ -26,7 +26,8 @@ The system has the following screens:
 9. Messages Inbox
 
 ### Server Connection
-Connecting to the server 
+Connecting to the server
+
 ![GCM Server](https://user-images.githubusercontent.com/49001453/102250746-98c2e900-3f0c-11eb-8948-e43219db2f2a.png)
 
 ### Registration Window
