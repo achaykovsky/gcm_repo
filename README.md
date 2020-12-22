@@ -39,6 +39,7 @@ These details can be changed later in the personal area.
 
 ### Maps Catalog
 The catalogue has the list of all the sites and the cities that exist of the maps.
+
 The user can search all that by sites, cities or by keywords that describe the map.
 
 ![Main](https://user-images.githubusercontent.com/49001453/102257689-bb0d3480-3f15-11eb-9b70-27183751973f.png)
@@ -46,17 +47,25 @@ The user can search all that by sites, cities or by keywords that describe the m
 ### Maps Editor Tool
 This window made from 2 tabs:
 1. Editing the city properties and making new travel routes that go through all the sites 
+
 2. Editing the properties of the each map and each site on the map.
 
 #### Editor Tool - Route View
 ![Editor Tool - Route View](https://user-images.githubusercontent.com/49001453/102719809-ea96b500-42f8-11eb-911c-7fd2e7431caa.PNG)
+
 To add a new city, or a new route in it, the user can simply choose the first option on the drop-down menu, and then all the fields are initialized.
+
 The employee can choose an existing city, and then choose the route that the worker would like to change.
+
 From the drop-down menu, the employee can choose a site and add it to the route, that can be viewed on the right side of the window.
 
 #### Editor Tool - Map View
 ![Editor Tool - Map View](https://user-images.githubusercontent.com/49001453/102719795-dd79c600-42f8-11eb-848b-1b252e7d220c.PNG)
+
 To add a new map, or a new site the user can simply choose the first option on the drop-down menu, and then all the fields are initialized.
+
 After a map choosed, all the details are loaded to the GUI and can be edited.
+
 On the top right side, the employee can add a site to the map.
+
 Below that, they can edit the details of the site, save it or delete it entirely.
